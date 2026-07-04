@@ -1,4 +1,4 @@
-# WEIRDO | KLAUS v3.0 🐊
+# WEIRDO | KLAUS 🦎
 
 اداة  شاملة  تشتغل على تيرمكس
 من قيس ويردو
@@ -95,5 +95,5 @@ python WEIRDO.py
 
 mic3ul
 للتواصل تيليجرام @ttetie
-
-```
+```link
+https://t.me/+2_pbiurDNw8zMDJk
