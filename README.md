@@ -7,7 +7,7 @@
 
  اكثر من 47 وحدة تشغيلية.. 
  مولّد حمولات عكسية وويب شيل
- فحص مثل لثغرات الويب مثل SQLi و XSS و LFI و Command Injection
+ فحص  لثغرات الويب.. SQLi و XSS و LFI و Command Injection
  استطلاع شامل DNS و Subdomain و Port Scan و OSINT و Google Dorks
 مستمع متعدد العملاء وخادم HTTP و HTTPS لنقل الملفات
  ادوات استغلال منها تصعيد الصلاحيات وجمع بيانات الدخول وهجمات تخمين
