@@ -1,9 +1,9 @@
-# WEIRD by KLAUS  🐊
+# WEIRDO | KLAUS v3.0 🐊
 
-اداة شاملة تشتغل على تيرمكس
-مبنية من قيس ويردو
+اداة  شاملة  تشتغل على تيرمكس
+من قيس ويردو
 
-### وش فيها
+###طيب وش فيها
 
 🐊 اكثر من 47 وحدة تشغيلية
 🦎 مولّد حمولات عكسية وويب شيل
@@ -15,46 +15,85 @@
 🦎 فحص الشبكات ARP Scan و Ping Sweep و Slowloris وتغيير MAC وبروكسي Tor
 🐍 واجهة ملونة وسهلة مع دعم الاكمال التلقائي
 
-### التثبيت
+---
 
-افتح تيرمكس ونفذ الاوامر ذي
+### خطوات التثبيت بالتفصيل
 
+#### ١. تحديث تيرمكس وتثبيت الأدوات الأساسية
+```bash
 pkg update -y && pkg upgrade -y
 pkg install python git -y
+```
+
+٢. تثبيت مترجم clang ومكتبات البناء (ضروري لتثبيت pycryptodome)
+
+```bash
+pkg install clang python-dev openssl libffi -y
+```
+
+٣. تثبيت مكتبة التشفير pycryptodome
+
+```bash
+pip install pycryptodome
+```
+
+لو واجهت مشكلة في التثبيت، تأكد إنك مثبت clang وأعد المحاولة.
+
+٤. استنساخ المستودع
+
+```bash
 git clone https://github.com/mic3ul/WEIRD.git
-cd V01D-WEIRDO
+cd WEIRD
+```
 
-شغل الاداة وبتثبت الاعتماديات تلقائيا
+٥. تشغيل الأداة (التثبيت التلقائي لبقية المتطلبات)
 
+```bash
 python WEIRDO.py
+```
 
-### الاستخدام
+الأداة بتثبت أي مكتبات ناقصة تلقائياً في أول تشغيل.
 
+---
+
+الاستخدام اليومي
+
+بعد التثبيت، افتح تيرمكس واكتب:
+
+```bash
+cd WEIRD
 python WEIRDO.py
+```
 
-بعدها تطلع لك القائمة الرئيسية وفيها كل الوحدات
+بتظهر لك القائمة الرئيسية:
 
-1.  Reconnaissance          8.  Set Target
-2.  Web Attacks             9.  View Saved Results
-3.  Payload Generator      10.  Install Dependencies
-4.  Listener               11.  Clear Workspace
-5.  Phishing Kit           12.  Show Network Info
-6.  Exploitation           13.  Update KLAUS | WEIRDO
-7.  Network Attacks         0.  Exit
+```text
+ 1.  Reconnaissance          8.  Set Target
+ 2.  Web Attacks             9.  View Saved Results
+ 3.  Payload Generator      10.  Install Dependencies
+ 4.  Listener               11.  Clear Workspace
+ 5.  Phishing Kit           12.  Show Network Info
+ 6.  Exploitation           13.  Update KLAUS | WEIRDO
+ 7.  Network Attacks         0.  Exit
+```
 
-اختار الرقم وحدد الهدف وامش مع الاوامر
+اختار الرقم وحدد الهدف وامش مع الأوامر.
 
-### الملف المشفر
+---
 
-الملف المرفوع نسخة مشفرة من الاداة
+الملف المشفر
+
+الملف المرفوع نسخة مشفرة من الأداة
 لما تشغله بيطلب منك كلمة سر
 
 لطلب كلمة السر لفك التشفير راسلني على تيليجرام
-
 @ttetie
 
-### المطور
+---
+
+المطور
 
 mic3ul
 للتواصل تيليجرام @ttetie
 
+```
